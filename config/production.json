@@ -1,0 +1,31 @@
+{
+    "configuration"   :   {
+      "webServer"   :   {
+            "PROTOCOL"  :   "http",
+            "HOST"      :   "localhost",
+            "PORT"      :   3000
+      },
+      "restApiEndPoint" :   {
+          "VERSION1"    :   "../settings/"
+      },
+      "mysql"   :   {
+        "PORT"  : 3000,
+        "DBUSER": "root",
+        "DBPASS": "password",
+        "DBNAME": "practice",
+        "IDLE"  : 1000,
+        "DIALECT" : "mysql",
+        "MAX" : 5,
+        "MIN" : 0
+      },
+      "mongodb"   :   {
+        "PORT"  : 3000,
+        "CONNECTION_STRING" : "mongodb://localhost/practice",
+        "DBPASS"  : ""
+      },
+      "credit"  :   {
+        "initialLimit"  : 100,
+        "initialDays"   : 1
+      }
+    }
+  }

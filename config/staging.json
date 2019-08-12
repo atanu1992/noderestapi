@@ -1,0 +1,33 @@
+{
+    "configuration"   :   {
+      "webServer"   :   {
+            "PROTOCOL"  :   "http",
+            "HOST"      :   "localhost",
+            "PORT"      :   4000
+      },
+      "mysql"   :   {
+        "PORT"  : 3000,
+        "DBUSER": "root",
+        "DBPASS": "password",
+        "DBNAME": "practice",
+        "IDLE"  : 1000,
+        "DIALECT" : "mysql",
+        "MAX" : 5,
+        "MIN" : 0
+      },
+      "mongodb"   :   {
+        "PORT"  : 3000,
+        "CONNECTION_STRING" : "mongodb://localhost:27017/practice",
+        "DBPASS"  : ""
+      },
+      "credit"  :   {
+        "initialLimit"  : 100,
+        "initialDays"   : 1
+      },
+      "jwtKey" : {
+        "primaryKey": "!$%810.tß´—™à%O˜v+nî…SZu¯µ€U…8H×PO$Q~`KLOZ$!",
+        "secondaryKey": "$h89*&@u147poarbQLOCCSANG@#!NIBE*END#"
+      },
+      "encryptedId": "!A@B-Z0.9%XCds~~!oi-_-GONO0vb@!&^NS"
+    }
+  }
