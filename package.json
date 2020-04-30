@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "NODE_ENV=staging nodemon server.js"
+    "start": "NODE_ENV=staging nodemon server.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [],
   "author": "",
@@ -21,10 +23,12 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.6.9",
     "mysql2": "^1.6.5",
-    "sequelize": "^5.8.12"
+    "sequelize": "^5.8.12",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "morgan": "^1.9.1",
     "nodemon": "^1.19.1"
-  }
+  },
+  "snyk": true
 }
